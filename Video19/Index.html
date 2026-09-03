@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            background-color: yellow;
+            color: red;
+        }
+
+        div p+p {
+            background-color: blue;
+            color: white;
+        }
+
+        div p+p+p {
+            background-color: yellow;
+            color: red;
+        }
+
+        div p+p+p+p {
+            background-color: blue;
+            color: white;
+        }
+
+        div p+p+p+p+p {
+            background-color: yellow;
+            color: red;
+        }
+
+        div:nth-of-type(2) p {
+            background-color: blue;
+            color: white;
+        }
+
+        div:nth-of-type(2) p+p {
+            background-color: yellow;
+            color: red;
+        }
+
+        div:nth-of-type(2) p+p+p {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Write html and css code to style a paragraph  inside a div which contain 5 other paragraph. The fisrt paragraph must have background color yellow and text color red. The other paragraph must have color blue and text color white . The html is written below for your reference do not cahnge HTML -->
+    <div>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsum consequuntur reiciendis accusantium
+            assumenda explicabo delectus blanditiis, minus vero dolor omnis doloremque labore provident earum natus
+            ipsam soluta nihil voluptates ipsa? Voluptate placeat non illum deleniti quasi nam sed exercitationem ad
+            laudantium. Corporis in voluptatem eligendi eius maiores! Quidem, impedit?
+        </p>
+        <p> I am another paragraph</p>
+        <p> I am also another paragraph</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eligendi!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, cumque!</p>
+    </div>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur officia, ad praesentium iure
+            suscipit! Consequuntur deserunt adipisci, accusantium placeat cum eaque provident. Rem rerum possimus
+            accusantium explicabo earum voluptatem maiores vitae eaque, alias eius est adipisci voluptatum quisquam vero
+            dolorem fuga modi fugit deserunt cupiditate molestiae quae accusamus dolorum? </p>
+
+        <p>I am another paragraph</p>
+        <p> I am also another paragraph</p>
+
+    </div>
+</body>
+
+</html>

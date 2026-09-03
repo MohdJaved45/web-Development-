@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --color: rgb(250, 40, 40);
+            --seccolor: rgb(174, 174, 222);
+            --color2: (#2dff76);
+            --color3: rgb(#686);
+            --color4: rgb(rgb(0, 60, 70));
+            --color5: rgb(rgb(11, 36, 11));
+            --defpad: 23px;
+            --defop: 0.2;
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: var(--color);
+
+        }
+
+        nav {
+            background-color: var(--seccolor);
+        }
+
+        ol {
+            list-style: none;
+            display: flex;
+
+        }
+
+        ol li {
+            /*  opacity:var(--defop);*/
+            list-style: none;
+            padding: var(--defpad);
+            /* border: 2px solid var(--seccolor);*/
+            /* margin-top: 23px;
+            margin-left: 23px;*/
+
+        }
+
+        ol li:first-child {
+            background-color: #2dff76;
+        }
+
+        ol:last-of-type {
+            background-color: aqua;
+        }
+
+        ol li:last-of-type {
+            background-color: blue;
+        }
+        .para{
+            background-color: var(--color);
+            color: #2dff76;
+        }
+        #box{
+            border-radius: 2px solid var(--seccolor);
+        }
+    </style>
+</head>
+
+<body>
+    <!--  Create a multicolor website which can change color using CSS Variables-->
+    <header>
+        <div>
+            <nav class="container">
+                <ol>
+                    <li>Home </li>
+                    <li>About </li>
+                    <li>Contact</li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+       
+    <div id="box">
+       <p class="para"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat magnam assumenda dolor quas doloribus recusandae quam itaque ex facere, sapiente consequatur, voluptates incidunt dicta inventore, reiciendis amet. Pariatur, ad.</p>
+    </div>
+</body>
+
+</html>
