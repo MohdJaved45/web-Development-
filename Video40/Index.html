@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+    <Style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.navbar {
+    width: 85%;
+    margin: 20px auto;
+    padding: 18px 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+    background: #ffd426;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo h2 {
+    font-size: 22px;
+}
+
+.logo small {
+    font-size: 9px;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu div {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu span {
+    margin-left: 4px;
+}
+
+/* Right side */
+.right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.right button {
+    background: #ffd22e;
+    border: none;
+    padding: 13px 27px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.search {
+    font-size: 28px;
+    cursor: pointer;
+}
+    </Style>
+    
+
+    
+</head>
+<body>
+     <nav class="navbar">
+    <div class="logo">
+        <div class="logo-circle">UE</div>
+        <div>
+            <h2>UltraEdit</h2>
+            <small>By Embarcadero</small>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div>Products <span>⌄</span></div>
+        <div>Buy</div>
+        <div>Renew</div>
+        <div>Support <span>⌄</span></div>
+        <div>Learn <span>⌄</span></div>
+        <div>Company <span>⌄</span></div>
+    </div>
+
+    <div class="right">
+        <button>Download</button>
+        <div>🌐 English</div>
+        <div class="search">⌕</div>
+    </div>
+</nav>
+</body>
+</html>
