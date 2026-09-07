@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 7</title>
-        <style>
-        .logo {}
+    <title>Excersise 6 Solution</title>
+    <style>
+        body {
+            display: grid;
+        }
 
         .logo img {
             width: 150px;
@@ -41,10 +44,43 @@
         .right ul li span {
             padding: 0 5px;
         }
+
+        .button {
+            display: grid;
+            justify-content: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .span {
+            border: 1px solid #424226;
+            width: 131px;
+            font-size: x-small;
+            color: #977800;
+        }
+
+        .h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 700;
+        }
+
+        .p1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .Botton a {
+            text-decoration: none;
+            border: 1px solid none;
+            border-radius: 1px;
+            background-color: #ffd741;
+            border: 1px solid silver;
+            line-height: 1.3;
+            font-weight: 500;
+        }
     </style>
 </head>
+
 <body>
-          <header class="header">
+    <header class="header">
         <nav>
             <div class="logo">
                 <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-logo.svg" alt="">
@@ -75,5 +111,26 @@
             </div>
         </nav>
     </header>
+    <div class="button">
+        <span><label for="">Personal</label>
+            <input type="checkbox">
+            <span><label for="">Business</label></span>
+    </div>
+
+    <div class="span"> <span> See what’s new in UE 2026.0 →</span> </div>
+    <section>
+        <h1 class="h1">
+            Text editor for your most critical work.
+        </h1>
+        <p class="p1">
+            Data professionals and IT teams choose UltraEdit for stronger security standards, unmatched performance with
+            large files, and fast dedicated support when issues arise.
+        </p>
+        <div class="Botton">
+            <a href="">Try UltraEdit free</a>
+            <a href="">View Plan</a>
+        </div>
+    </section>
 </body>
+
 </html>
